@@ -226,8 +226,9 @@
     <Compile Include="Assets\Scripts\Item Classes\BaseEquipment.cs" />
     <Compile Include="Assets\Scripts\Item Classes\BaseItem.cs" />
     <Compile Include="Assets\Scripts\Item Classes\BaseStatItem.cs" />
-    <Compile Include="Assets\Scripts\Item Classes\BaseWeapon.cs" />
-    <Compile Include="Assets\Scripts\Item Classes\CreateNewWeapon.cs" />
+    <Compile Include="Assets\Scripts\Item Classes\Weapon Classes\BaseWeapon.cs" />
+    <Compile Include="Assets\Scripts\Item Classes\Weapon Classes\CreateNewWeapon.cs" />
+    <Compile Include="Assets\Scripts\Item Classes\Weapon Classes\WeaponProfileAssultRifles.cs" />
     <Compile Include="Assets\Scripts\TestGUI.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

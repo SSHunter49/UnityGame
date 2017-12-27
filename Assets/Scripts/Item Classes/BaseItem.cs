@@ -47,10 +47,17 @@ public class BaseItem
         get { return itemClass; }
         set { itemClass = value; }
     }
+
     public int ItemId
     {
         get { return itemId; }
         set { itemId = value; }
+    }
+
+    public int ItemLevel
+    {
+        get { return itemLevel;}
+        set { itemLevel = value; }
     }
 
     public ItemTypes_E ItemType
